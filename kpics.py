@@ -18,7 +18,7 @@ _thumb_height = 123
 
 
 def print_info(msg, level=0):
-    if _debug == True and level <= 1:
+    if _debug == True and level >= 1:
         print_info(msg)
 
 def access_filesystem(path):
