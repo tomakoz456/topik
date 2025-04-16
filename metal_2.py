@@ -10,7 +10,7 @@ class Metal:
         self.current_url = ''
         self.data = ''
 
-    def get_index(url=None):
+    def get_index(self, url=None):
         if not url:
             self.current_url = self.base_url
         else:

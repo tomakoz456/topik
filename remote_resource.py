@@ -6,3 +6,4 @@ class RemoteResource(object):
         pass
     
     def fetch(self):
+        pass
